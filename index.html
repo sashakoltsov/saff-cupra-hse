@@ -805,11 +805,11 @@
 
           {/* RIGHT MAIN AREA - CANVAS */}
           <div 
-            className="flex-1 relative overflow-hidden bg-[#f4f4f4] flex items-center justify-center"
+            className="flex-1 relative overflow-hidden bg-white flex items-center justify-center"
             onMouseMove={handleMouseMove}
             onMouseLeave={() => setTooltip(prev => ({ ...prev, show: false }))}
           >
-            <div className="w-full h-full max-w-4xl max-h-[90vh] aspect-square shadow-2xl bg-transparent">
+            <div className="w-full h-full max-w-4xl max-h-[90vh] aspect-square bg-transparent">
               <svg 
                 ref={svgRef}
                 viewBox="0 0 500 500" 
